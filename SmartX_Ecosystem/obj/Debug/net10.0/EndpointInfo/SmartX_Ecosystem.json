@@ -1,0 +1,204 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "SmartX_Ecosystem | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7103"
+    },
+    {
+      "url": "http://localhost:5263"
+    }
+  ],
+  "paths": {
+    "/api/telemetry/ingest": {
+      "post": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "operationId": "IngestTelemetry",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TelemetryPacketOfstring"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/telemetry/standard": {
+      "post": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TelemetryPacketOfstring"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/telemetry/critical": {
+      "post": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "parameters": [
+          {
+            "name": "severity",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TelemetryPacketOfstring"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/commands/issue": {
+      "post": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceCommand"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/commands/undo": {
+      "post": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/devices/{macAddress}": {
+      "get": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "parameters": [
+          {
+            "name": "macAddress",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/insights": {
+      "get": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DeviceCommand": {
+        "type": "object",
+        "properties": {
+          "commandId": {
+            "type": "string"
+          },
+          "action": {
+            "type": "string"
+          }
+        }
+      },
+      "TelemetryPacketOfstring": {
+        "type": "object",
+        "properties": {
+          "macAddress": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "payload": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "SmartX_Ecosystem"
+    }
+  ]
+}

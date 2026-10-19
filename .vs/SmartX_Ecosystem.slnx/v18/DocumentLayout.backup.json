@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2EA780F-B283-9C6A-1C1C-A9A958A6D72D}|SmartX.Dashboard\\SmartX.Dashboard.csproj|c:\\users\\emeris\\source\\repos\\smartx_ecosystem\\smartx.dashboard\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2EA780F-B283-9C6A-1C1C-A9A958A6D72D}|SmartX.Dashboard\\SmartX.Dashboard.csproj|solutionrelative:smartx.dashboard\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CDF15E2-79C9-6F3F-77D2-5CC98C11813A}|SmartX_Ecosystem\\SmartX_Ecosystem.csproj|c:\\users\\emeris\\source\\repos\\smartx_ecosystem\\smartx_ecosystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9CDF15E2-79C9-6F3F-77D2-5CC98C11813A}|SmartX_Ecosystem\\SmartX_Ecosystem.csproj|solutionrelative:smartx_ecosystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CDF15E2-79C9-6F3F-77D2-5CC98C11813A}|SmartX_Ecosystem\\SmartX_Ecosystem.csproj|c:\\users\\emeris\\source\\repos\\smartx_ecosystem\\smartx_ecosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CDF15E2-79C9-6F3F-77D2-5CC98C11813A}|SmartX_Ecosystem\\SmartX_Ecosystem.csproj|solutionrelative:smartx_ecosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2EA780F-B283-9C6A-1C1C-A9A958A6D72D}|SmartX.Dashboard\\SmartX.Dashboard.csproj|c:\\users\\emeris\\source\\repos\\smartx_ecosystem\\smartx.dashboard\\ingestionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C2EA780F-B283-9C6A-1C1C-A9A958A6D72D}|SmartX.Dashboard\\SmartX.Dashboard.csproj|solutionrelative:smartx.dashboard\\ingestionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2EA780F-B283-9C6A-1C1C-A9A958A6D72D}|SmartX.Dashboard\\SmartX.Dashboard.csproj|c:\\users\\emeris\\source\\repos\\smartx_ecosystem\\smartx.dashboard\\ingestionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2EA780F-B283-9C6A-1C1C-A9A958A6D72D}|SmartX.Dashboard\\SmartX.Dashboard.csproj|solutionrelative:smartx.dashboard\\ingestionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2380A31-7A90-4AC0-929B-2309B010507D}|SmartX.Core\\SmartX.Core.csproj|c:\\users\\emeris\\source\\repos\\smartx_ecosystem\\smartx.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2380A31-7A90-4AC0-929B-2309B010507D}|SmartX.Core\\SmartX.Core.csproj|solutionrelative:smartx.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2EA780F-B283-9C6A-1C1C-A9A958A6D72D}|SmartX.Dashboard\\SmartX.Dashboard.csproj|c:\\users\\emeris\\source\\repos\\smartx_ecosystem\\smartx.dashboard\\realtimecommandform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EA780F-B283-9C6A-1C1C-A9A958A6D72D}|SmartX.Dashboard\\SmartX.Dashboard.csproj|solutionrelative:smartx.dashboard\\realtimecommandform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,83 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX_Ecosystem\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "SmartX_Ecosystem\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX_Ecosystem\\Properties\\launchSettings.json",
-              "RelativeToolTip": "SmartX_Ecosystem\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-14T19:35:18.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Dashboard\\Form1.cs",
-              "RelativeDocumentMoniker": "SmartX.Dashboard\\Form1.cs",
-              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Dashboard\\Form1.cs",
-              "RelativeToolTip": "SmartX.Dashboard\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Title": "RealTimeCommandForm.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Dashboard\\RealTimeCommandForm.cs",
+              "RelativeDocumentMoniker": "SmartX.Dashboard\\RealTimeCommandForm.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Dashboard\\RealTimeCommandForm.cs",
+              "RelativeToolTip": "SmartX.Dashboard\\RealTimeCommandForm.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAmwIMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T19:36:22.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IngestionForm.cs",
-              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Dashboard\\IngestionForm.cs",
-              "RelativeDocumentMoniker": "SmartX.Dashboard\\IngestionForm.cs",
-              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Dashboard\\IngestionForm.cs",
-              "RelativeToolTip": "SmartX.Dashboard\\IngestionForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T19:33:06.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IngestionForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Dashboard\\IngestionForm.cs",
-              "RelativeDocumentMoniker": "SmartX.Dashboard\\IngestionForm.cs",
-              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Dashboard\\IngestionForm.cs [Design]",
-              "RelativeToolTip": "SmartX.Dashboard\\IngestionForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T19:32:56.655Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX_Ecosystem\\Program.cs",
-              "RelativeDocumentMoniker": "SmartX_Ecosystem\\Program.cs",
-              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX_Ecosystem\\Program.cs",
-              "RelativeToolTip": "SmartX_Ecosystem\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T19:20:09.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Core\\Class1.cs",
-              "RelativeDocumentMoniker": "SmartX.Core\\Class1.cs",
-              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Core\\Class1.cs",
-              "RelativeToolTip": "SmartX.Core\\Class1.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T19:17:49.632Z",
+              "WhenOpened": "2026-10-19T14:42:27.612Z",
               "EditorCaption": ""
             }
           ]

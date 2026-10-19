@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartX_Ecosystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cacee01f7074340ac0caf89516a71c2071e4856")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartX_Ecosystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartX_Ecosystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,67 +1,65 @@
 using System;
-using System.Drawing;
-using System.Net.Http;
 using System.Windows.Forms;
+using System.Net.Http;
 
 namespace SmartX.Dashboard
 {
     public partial class Form1 : Form
     {
-        // HTTP Client to satisfy the API Integration Layer requirement
-        public static readonly HttpClient ApiClient = new HttpClient
-        {
-            BaseAddress = new Uri("https://localhost:7245/") // Use YOUR specific port here
-        };
+        public static readonly HttpClient ApiClient = new HttpClient { BaseAddress = new Uri("https://localhost:7103/") };
 
         public Form1()
         {
             InitializeComponent();
-            BuildStartupInterface();
+            SetupMainMenu();
         }
 
-        private void BuildStartupInterface()
+        private void SetupMainMenu()
         {
-            this.Text = "Smart-X Application Gateway";
-            this.Size = new Size(500, 350);
-            this.StartPosition = FormStartPosition.CenterScreen;
+            // Configure Form
+            this.Text = "Smart-X Ecosystem Gateway";
+            this.Size = new System.Drawing.Size(450, 300);
 
-            // Pillar 1: Sensor Data Ingestion and Telemetry (Active)
-            Button btnIngestion = new Button
-            {
-                Text = "Sensor Data Ingestion and Telemetry",
-                Size = new Size(350, 50),
-                Location = new Point(65, 40),
-                BackColor = Color.LightSkyBlue
-            };
+            // 1. Button: Sensor Data Ingestion
+            Button btnOpenIngestion = new Button();
+            btnOpenIngestion.Text = "Sensor Data Ingestion and Telemetry";
+            btnOpenIngestion.Location = new System.Drawing.Point(50, 40);
+            btnOpenIngestion.Size = new System.Drawing.Size(320, 40);
+            btnOpenIngestion.Click += new EventHandler(btnOpenIngestion_Click);
+            this.Controls.Add(btnOpenIngestion);
 
-            // UPDATED: Now opens the new Ingestion module where payload management occurs
-            btnIngestion.Click += (s, e) =>
-            {
-                IngestionForm ingestionForm = new IngestionForm();
-                ingestionForm.Show();
-            };
+            // 2. Button: Real-Time Command Stream
+            Button btnOpenCommandStream = new Button();
+            btnOpenCommandStream.Text = "Real-Time Command Stream and History";
+            btnOpenCommandStream.Location = new System.Drawing.Point(50, 100);
+            btnOpenCommandStream.Size = new System.Drawing.Size(320, 40);
+            btnOpenCommandStream.Click += new EventHandler(btnOpenCommandStream_Click);
+            this.Controls.Add(btnOpenCommandStream);
 
-            this.Controls.Add(btnIngestion);
+            // 3. Button: Network Topology
+            Button btnOpenTopology = new Button();
+            btnOpenTopology.Text = "Network Topology and Mesh Routing";
+            btnOpenTopology.Location = new System.Drawing.Point(50, 160);
+            btnOpenTopology.Size = new System.Drawing.Size(320, 40);
+            btnOpenTopology.Click += new EventHandler(btnOpenTopology_Click);
+            this.Controls.Add(btnOpenTopology);
+        }
 
-            // Pillar 2: Real-Time Command Stream and History (Disabled)
-            Button btnCommand = new Button
-            {
-                Text = "Real-Time Command Stream and History\n(To be implemented in Part 2)",
-                Size = new Size(350, 50),
-                Location = new Point(65, 110),
-                Enabled = false // Disabled as per requirements
-            };
-            this.Controls.Add(btnCommand);
+        private void btnOpenIngestion_Click(object sender, EventArgs e)
+        {
+            var ingestionForm = new IngestionForm();
+            ingestionForm.Show();
+        }
 
-            // Pillar 3: Network Topology and Mesh Routing (Disabled)
-            Button btnTopology = new Button
-            {
-                Text = "Network Topology and Mesh Routing\n(To be implemented in final PoE)",
-                Size = new Size(350, 50),
-                Location = new Point(65, 180),
-                Enabled = false // Disabled as per requirements
-            };
-            this.Controls.Add(btnTopology);
+        private void btnOpenCommandStream_Click(object sender, EventArgs e)
+        {
+            var commandForm = new RealTimeCommandForm();
+            commandForm.Show();
+        }
+
+        private void btnOpenTopology_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Network Topology & Mesh Routing will be implemented in the final PoE.");
         }
     }
 }

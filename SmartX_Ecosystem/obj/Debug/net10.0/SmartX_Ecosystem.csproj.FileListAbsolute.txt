@@ -34,3 +34,4 @@ C:\Users\emeris\source\repos\SmartX_Ecosystem\SmartX_Ecosystem\obj\Debug\net10.0
 C:\Users\emeris\source\repos\SmartX_Ecosystem\SmartX_Ecosystem\obj\Debug\net10.0\SmartX_Ecosystem.pdb
 C:\Users\emeris\source\repos\SmartX_Ecosystem\SmartX_Ecosystem\obj\Debug\net10.0\SmartX_Ecosystem.genruntimeconfig.cache
 C:\Users\emeris\source\repos\SmartX_Ecosystem\SmartX_Ecosystem\obj\Debug\net10.0\ref\SmartX_Ecosystem.dll
+C:\Users\emeris\source\repos\SmartX_Ecosystem\SmartX_Ecosystem\obj\Debug\net10.0\SmartX_Ecosystem.sourcelink.json
